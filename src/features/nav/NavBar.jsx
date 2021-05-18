@@ -19,6 +19,7 @@ export default function NavBar(){
                     re-vent
                 </Menu.Item>
                 <Menu.Item as={NavLink} to ='/events' name='Events'/>
+                <Menu.Item as={NavLink} to ='/sandbox' name='sandbox'/>
                 {authenticated&&
                 <Menu.Item>
                     <Button as={NavLink} to='/createEvent' positive inverted content='Create Event'/>
